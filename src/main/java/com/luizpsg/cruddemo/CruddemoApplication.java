@@ -34,9 +34,10 @@ public class CruddemoApplication {
 
       // deleteStudent(studentDAO);
 
-      deleteAllStudents(studentDAO);
+      // deleteAllStudents(studentDAO);
     };
   }
+
 
   private void deleteAllStudents(StudentDAO studentDAO) {
       
@@ -124,7 +125,7 @@ public class CruddemoApplication {
     // create multiple students
 
     System.out.println("Creating 3 students object ...");
-    Student tempStudent1 = new Student("Jorge", "Silva", "jorge@luizpsg.com");
+    Student tempStudent1 = new Student("Jorge", "Nho", "jorge@luizpsg.com");
     
     Student tempStudent2 = new Student("Vivian", "Almeida", "vivi@luizpsg.com");
 
